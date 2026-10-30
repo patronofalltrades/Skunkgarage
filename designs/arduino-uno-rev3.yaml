@@ -1,0 +1,21 @@
+name: Arduino Uno Rev3
+category: electronics/microcontroller-board
+openness: open-source
+license:
+  hardware: CC-BY-SA-4.0
+maker: Arduino
+source: https://docs.arduino.cc/static/6bb7a3ca51ebee82a252f60c0b418787/A000066-cad-files.zip
+docs: https://docs.arduino.cc/hardware/uno-rev3/
+get_it: Assembled from Arduino or resellers
+formats: [Eagle (.sch/.brd)]
+summary: >
+  The reference ATmega328P board, and the shield footprint that most hobby modules
+  expect.
+use_it_for: First prototypes, teaching, and anything that already has an Uno shield.
+skill_level: beginner
+verified:
+  date: 2026-10-30
+  checked: >
+    The official CAD zip holds UNO-TH_Rev3e .sch/.brd and a License.txt stating the
+    hardware is CC BY-SA 4.0.
+notes: There is no git repo. The design files are only published as this zip on docs.arduino.cc.

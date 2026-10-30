@@ -1,0 +1,20 @@
+name: Bus Pirate 5
+category: test-and-debug/interface-tool
+openness: open-source
+license:
+  hardware: MIT
+maker: Where Labs LLC / Dangerous Prototypes (Ian Lesnet)
+source: https://github.com/DangerousPrototypes/BusPirate5-hardware
+docs: https://hardware.buspirate.com/
+get_it: Assembled from the Bus Pirate shop, or build from the repo
+formats: [KiCad, enclosure CAD]
+summary: >
+  RP2040-based serial interface tool with a VT100 terminal UI. You type commands and it
+  speaks 1-Wire, I2C, SPI, UART, MIDI, serial LEDs and more. A live status bar shows
+  each pin's voltage.
+use_it_for: Getting to know a new chip or module before writing any firmware for it.
+skill_level: beginner
+verified:
+  date: 2026-10-30
+  checked: LICENSE.TXT is MIT, (c) 2023 Ian Lesnet, Where Labs LLC. The repo includes adapter plank designs.
+notes: Firmware is in DangerousPrototypes/BusPirate5-firmware.

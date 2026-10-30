@@ -1,0 +1,20 @@
+name: OpenFlexure Microscope
+category: test-and-debug/microscope
+openness: open-source
+license:
+  design: CERN-OHL-S-2.0
+maker: OpenFlexure project (University of Bath and contributors)
+source: https://gitlab.com/openflexure/openflexure-microscope
+docs: https://openflexure.org/projects/microscope/build
+get_it: Print it yourself. Kits are available from third parties.
+formats: [OpenSCAD, STL, GitBuilding docs]
+summary: >
+  3D-printed microscope with a flexure stage capable of sub-micron positioning. Optics
+  range from a Raspberry Pi camera lens to a 100x oil objective, and it can be motorised
+  for automated scanning.
+use_it_for: Inspecting solder joints and fine-pitch parts, and documenting builds.
+skill_level: intermediate
+verified:
+  date: 2026-10-30
+  checked: The repo License file is CERN-OHL-S v2. The repo includes an okh.yml (Open Know-How manifest).
+notes: The repo is on GitLab, not GitHub. Large files use Git LFS.

@@ -1,0 +1,19 @@
+name: Voron 2.4
+category: fabrication/3d-printer
+openness: open-source
+license:
+  design: GPL-3.0
+maker: Voron Design (community)
+source: https://github.com/VoronDesign/Voron-2
+docs: https://docs.vorondesign.com/
+get_it: Self-sourced from the BOM, or as a third-party kit
+formats: [Fusion 360 (.f3d), STEP, STL, DXF]
+summary: >
+  CoreXY 3D printer with an enclosed frame and a flying gantry. Build volumes are 250, 300
+  or 350 mm cubed. It runs Klipper and is designed to be built from the repo.
+use_it_for: Printing jigs, enclosures, brackets and parts for every other build here.
+skill_level: advanced
+verified:
+  date: 2026-10-30
+  checked: Repo LICENSE is GPLv3. CAD/ holds Voron_2.4r2_Assembly .f3d and STEP.
+notes: The Stealthburner toolhead is kept in a separate repo (VoronDesign/Voron-Stealthburner).

@@ -1,0 +1,19 @@
+name: Libre Solar MPPT 2420 HC
+category: electronics/power
+openness: open-source
+license:
+  design: CERN-OHL-W-2.0
+maker: Libre Solar
+source: https://github.com/LibreSolar/mppt-2420-hc
+docs: https://libre.solar/
+get_it: Build from the repo (schematic PDF, BOM CSV and interactive BOM are in build/)
+formats: [KiCad]
+summary: >
+  MPPT solar charge controller with up to 80 V PV input, a 12/24 V battery output at
+  20 A, a 20 A load switch and CAN. Based on the STM32G431.
+use_it_for: Off-grid power for a shop, a cabin or a field-deployed build.
+skill_level: advanced
+verified:
+  date: 2026-10-30
+  checked: The repo LICENCE file is CERN-OHL-W v2. README marks it beta (prototype built and tested).
+notes: Firmware is in LibreSolar/charge-controller-firmware. This is a beta design, so check open issues before building.

@@ -1,0 +1,21 @@
+name: Adafruit Feather RP2040
+category: electronics/microcontroller-board
+openness: open-source
+license:
+  design: CC-BY-SA (version not stated in the repo README)
+maker: Adafruit Industries
+source: https://github.com/adafruit/Adafruit-Feather-RP2040-PCB
+docs: https://www.adafruit.com/product/4884
+get_it: Assembled from Adafruit
+formats: [Eagle (.sch/.brd), PDF/SVG pinout]
+summary: >
+  RP2040 board in the Feather form factor, with LiPo charging, USB-C and STEMMA QT.
+  Adafruit published the files so people can base custom RP2040 boards on them.
+use_it_for: A starting point for a custom RP2040 board, or the brain of a small build.
+skill_level: beginner
+verified:
+  date: 2026-10-30
+  checked: >
+    README says "Creative Commons Attribution, Share-Alike". Eagle files for the original
+    and rev B are present. Last commit was 2022-12-02.
+notes: Eagle format. Import into KiCad if that is the house tool.

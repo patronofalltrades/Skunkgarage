@@ -1,0 +1,23 @@
+name: Glasgow Interface Explorer
+category: test-and-debug/interface-tool
+openness: open-source
+license:
+  design: 0BSD OR Apache-2.0
+maker: Glasgow Interface Explorer contributors (started by Catherine "whitequark")
+source: https://github.com/GlasgowEmbedded/glasgow
+docs: https://glasgow-embedded.org/
+get_it: Assembled units through Crowd Supply. The board can also be built from hardware/boards/glasgow.
+formats: [KiCad]
+summary: >
+  FPGA-based tool for talking to almost any digital interface: SPI, I2C, UART, JTAG,
+  SWD, parallel flash and more. Each interface is a Python applet.
+use_it_for: Bring-up, flash dumping and reverse engineering of unknown boards.
+skill_level: intermediate
+verified:
+  date: 2026-10-30
+  checked: >
+    The docs license page says source, documentation and design files are dual-licensed
+    0BSD / Apache-2.0. KiCad boards for revA to revD1 are in hardware/boards/glasgow.
+notes: >
+  Upstream warns against building revA or revB yourself because of a level-shifter
+  pitfall. Build a current revision instead.

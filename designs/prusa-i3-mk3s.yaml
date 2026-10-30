@@ -1,0 +1,22 @@
+name: Original Prusa i3 MK3S
+category: fabrication/3d-printer
+openness: open-source
+license:
+  design: GPL-2.0
+maker: Prusa Research
+source: https://github.com/prusa3d/Original-Prusa-i3
+docs: https://help.prusa3d.com/
+get_it: Kit or assembled from Prusa Research. Printed parts can be made from the repo.
+formats: [OpenSCAD, STL]
+summary: >
+  Bed-slinger 3D printer descended from RepRap. The repo holds the SCAD and STL files for
+  the frame and printed parts. The heatbed, power-panic board and IR sensor each have
+  their own repos.
+use_it_for: A reliable, well-documented first printer. It is also a reference for RepRap-style mechanics.
+skill_level: intermediate
+verified:
+  date: 2026-10-30
+  checked: Repo LICENSE is GPLv2. README covers the MK3S and links the firmware and sub-board repos.
+notes: >
+  Only the MK3S line is open in this repo. Newer Prusa models (MK4, Core One) are not
+  published there. Last commit was 2022-11-14.

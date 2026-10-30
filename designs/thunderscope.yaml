@@ -1,0 +1,20 @@
+name: ThunderScope
+category: test-and-debug/oscilloscope
+openness: open-source
+license:
+  hardware: CERN-OHL-P-2.0
+  repo_default: MIT
+maker: EEVengers
+source: https://github.com/EEVengers/ThunderScope
+docs: https://docs.eevengers.com/ThunderScope/latest/index.html
+get_it: Crowd Supply (https://www.crowdsupply.com/eevengers/thunderscope)
+formats: [KiCad, gateware, software]
+summary: >
+  Four-channel, 1 GS/s oscilloscope. It streams samples over Thunderbolt/USB4 to a PC,
+  which does the processing and display.
+use_it_for: A real bench scope for debugging analog and fast digital signals.
+skill_level: advanced
+verified:
+  date: 2026-10-30
+  checked: Hardware/LICENSE is CERN-OHL-P v2 and Hardware/README says so. The root LICENSE is MIT.
+notes: The current board is under Hardware/Thunderscope_Rev5.3.

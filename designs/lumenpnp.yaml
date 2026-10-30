@@ -1,0 +1,22 @@
+name: LumenPnP
+category: fabrication/pick-and-place
+openness: open-source
+license:
+  hardware: CERN-OHL-W-2.0
+  kicad_libraries: CC-BY-SA-4.0
+  ci_workflows: MPL-2.0
+  branding: All rights reserved (the Opulo and LumenPnP names and logos)
+maker: Opulo
+source: https://github.com/opulo-inc/lumenpnp
+docs: https://github.com/opulo-inc/lumenpnp/wiki
+get_it: Kit or assembled from Opulo (https://www.opulo.io/products/lumenpnp)
+formats: [FreeCAD, KiCad, STL]
+summary: >
+  Desktop pick-and-place machine for assembling SMD parts onto PCBs. It runs OpenPnP.
+  Powered feeders live in a separate repo (opulo-inc/feeder).
+use_it_for: Small batches of the boards you design, without hand-placing every part.
+skill_level: advanced
+verified:
+  date: 2026-10-30
+  checked: LICENSE splits terms by folder. Hardware under pnp/cad and pnp/pcb is CERN-OHL-W v2.
+notes: Derivative builds must remove the Opulo and LumenPnP names and logos.
